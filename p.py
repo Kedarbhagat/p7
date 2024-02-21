@@ -36,5 +36,3 @@ def display_c_program():
 
     return render_template_string('<pre>{{ code }}</pre>', code=c_program_code)
 
-if __name__ == '__main__':
-    app.run(debug=True)
